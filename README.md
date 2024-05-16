@@ -115,3 +115,7 @@ chartkick
 Active Adimin
 - CSVインポート・エクスポート機能<br>
  activerecord-import
+
+### 画面遷移図
+Figma：
+https://www.figma.com/design/miSHjWP3PXquC20SsSSM3U/%E7%94%BB%E9%9D%A2%E8%A8%AD%E8%A8%88?node-id=8%3A299&t=vohVlWnDtSrUCafa-1
