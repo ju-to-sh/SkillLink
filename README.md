@@ -122,3 +122,6 @@ Figma：<br>
 https://www.figma.com/design/miSHjWP3PXquC20SsSSM3U/%E7%94%BB%E9%9D%A2%E8%A8%AD%E8%A8%88?node-id=8%3A299&t=enpz9Xjdo2IGsoee-1<br>
 UI
 https://www.figma.com/design/miSHjWP3PXquC20SsSSM3U/%E7%94%BB%E9%9D%A2%E8%A8%AD%E8%A8%88?node-id=26%3A650&t=4ielewCafDRu9tic-1
+
+### ER図
+https://drive.google.com/file/d/1Ew8D07elfvgoHhhJym4vatf2G1fkBOkG/view?usp=sharing
