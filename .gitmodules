@@ -1,0 +1,6 @@
+[submodule "front"]
+	path = front
+	url = git@github.com:ju-to-sh/TypingPlus-front.git
+[submodule "api"]
+	path = api
+	url = git@github.com:ju-to-sh/typing_plus_api.git

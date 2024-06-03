@@ -1,13 +1,13 @@
 services:
   db:
-    image: mysql:8.0
-    command: --default-authentication-plugin=mysql_native_password
+    image: postgres:latest
+    platform: linux/amd64
     environment:
-      MYSQL_ROOT_PASSWORD: password
+      POSTGRES_PASSWORD: postgres
     ports:
-      - 3306:3306
+      - 5432:5432
     volumes:
-      - mysql-data:/var/lib/mysql
+      - postgresql-data:/var/lib/postgresql/data
   api:
     build:
       context: ./api
@@ -29,4 +29,4 @@ services:
     ports:
       - 3000:3000
 volumes:
-  mysql-data:
+  postgresql-data:
