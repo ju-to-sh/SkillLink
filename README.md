@@ -125,3 +125,39 @@ https://www.figma.com/design/miSHjWP3PXquC20SsSSM3U/%E7%94%BB%E9%9D%A2%E8%A8%AD%
 
 ### ER図
 https://drive.google.com/file/d/1Ew8D07elvgoHhhJym4vatf2G1fkBOkG/view?usp=sharing
+
+### 使用画面と機能
+| トップページ  | ゲーム選択ページ |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/1d5fb5ffa014b323bac360dbc3becda4.png)](https://gyazo.com/1d5fb5ffa014b323bac360dbc3becda4)  | [![Image from Gyazo](https://i.gyazo.com/59f5dcc32217f8ad6a46916d981cb5db.png)](https://gyazo.com/59f5dcc32217f8ad6a46916d981cb5db) |
+| サービス概要の説明および問題を解くボタンを押すことで、ゲーム選択画面へ遷移する。  | クイズゲームかタイピングゲームを選択できる。ログインなしでもプレイ可能であり、ログインしてプレイした場合は、学習記録として結果が残る。  |
+
+| クイズ一覧ページ  | タイピング一覧ページ |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/662d7d54c60c980d7cd6c3069125f6de.png)](https://gyazo.com/662d7d54c60c980d7cd6c3069125f6de)  | [![Image from Gyazo](https://i.gyazo.com/55766a63ff28184509f0b5352b971560.png)](https://gyazo.com/55766a63ff28184509f0b5352b971560)  |
+| 4クイズにはカテゴリー（Ruby or Rails）、レベルの表示あり  | クイズ同様、カテゴリー（Ruby or Rails）、レベルの表示あり |
+
+| ランキング一覧ページ  | 問題検索ページ |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/67990ed7cee4d83b722e12d4a66bb4de.gif)](https://gyazo.com/67990ed7cee4d83b722e12d4a66bb4de)  | [![Image from Gyazo](https://i.gyazo.com/220dc5ebb1c60d2e670df356cb1ec03c.gif)](https://gyazo.com/220dc5ebb1c60d2e670df356cb1ec03c)  |
+| 会員登録したユーザーのタイピング結果をランキングとして表示。タイプ速度とミスタイプ数からスコアを算出しているため、速くてミスタイプが少ないほどスコアが高くなる。  | タイトル名、カテゴリー、レベルで問題を検索することができる。  |
+
+| クイズゲームページ  | クイズ結果ページ |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/791411e67eb5c26181ca2c80f5441982.gif)](https://gyazo.com/791411e67eb5c26181ca2c80f5441982)  | [![Image from Gyazo](https://i.gyazo.com/b05adca59b2e262805f783ef08872e8d.gif)](https://gyazo.com/b05adca59b2e262805f783ef08872e8d)  |
+| 4択クイズで1つのクイズにつき5問出題される。何問目を解いているか把握できるように、画面上部にステッパーを表示。  | 正解数と各クイズの回答およびユーザー回答を表示。画面下部のボタンより問題一覧画面に遷移する。 |
+
+| タイピングゲームページ  | タイピング結果（モーダル） |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/f8068a80aa732db63d33f660b7519ef1.gif)](https://gyazo.com/f8068a80aa732db63d33f660b7519ef1)  | [![Image from Gyazo](https://i.gyazo.com/20d8262ea9bdb281aabdc30e9da7635c.gif)](https://gyazo.com/20d8262ea9bdb281aabdc30e9da7635c) |
+| 1つのタイピング問題につき5問出題される。入力対象文字の場合：背景色グレー＋黒字、正しい入力の場合：緑字、誤入力：赤字で表示。  | タイピング結果をモーダルで表示。表示内容は、タイピング速度、ミスタイプ回数、スコアの3項目。  |
+
+| X投稿機能  | 学習記録ページ |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/063c1a52f0794c0decff5daa90e3707d.gif)](https://gyazo.com/063c1a52f0794c0decff5daa90e3707d)  | [![Image from Gyazo](https://i.gyazo.com/ded702c30283a361dbe5cd19b1f2de55.gif)](https://gyazo.com/ded702c30283a361dbe5cd19b1f2de55)  |
+| タイピング結果を容易にXでシェアできるように投稿ボタンを設置。ボタンを押下後、Xの投稿内容にタイピング結果とアプリのリンク先をあらかじめ表示する。  | ログイン状態でクイズorタイピング問題を解くことで、カレンダーに解いた問題数の実績を表示する。また、タイピングの場合はグラフで過去実績のトレンドを把握することができる。  |
+
+| お気に入り機能  | マイページ |
+| ------------- | ------------- |
+| [![Image from Gyazo](https://i.gyazo.com/e159de411861af94ca1dcf6743b5cd81.gif)](https://gyazo.com/e159de411861af94ca1dcf6743b5cd81)  | [![Image from Gyazo](https://i.gyazo.com/67b589d4d28d56b853483d316ffa214f.gif)](https://gyazo.com/67b589d4d28d56b853483d316ffa214f)  |
+| ログイン状態の場合、各クイズ問題にお気に入りボタンが表示される。お気に入りした問題については、ヘッダー上部のお気に入り一覧から画面遷移することで、容易に問題にアクセスすることができる。  | ログイン状態の場合、ユーザー情報を表示するマイページに遷移することができる。ニックネームやユーザーアイコンの編集などができる。  |
